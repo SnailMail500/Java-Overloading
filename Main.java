@@ -1,7 +1,7 @@
 public class Main {
     static int addNum(int x, int y){
-        int z = x + y;
-        return z;
+        int z = x + y;//z can only be used after this declaration. This is another bit of scope.
+        return z;//this z can only be used in this method. This is called scope.
     }
     static float addNum(float x, float y){
         float z = x + y;

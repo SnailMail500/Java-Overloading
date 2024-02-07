@@ -12,7 +12,6 @@ public class Main {
         return z;
     }//addNum is overloaded here!
     public static void main(String[] args){
-        System.out.println("foo");
         float a = 9.9f;
         float b = 8.2f;
         int c = 9;
